@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADmin Panel</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+<body>
+<main>
+    <section class="section1">
+    <h2>Admin Panel</h2>
+    <ul class="section1__ul">
+        <li class="section__li"><b>Option</b></li>
+        <li class="section__li"><b>Static Pages</b></li>
+        <li class="section__li"><b>Posts</b></li>
+        <li class="section__li"><b>Modules</b></li>
+        <li class="section__li"><b>Navigation Links</b></li>
+        <li class="section__li"><b>Mailing Lists</b></li>
+        <li class="section__li"><b>Theme</b></li>
+
+    </ul>
+    <b>Logout</b>
+</section>
+<section class="section2">
+<aside>
+    <h1>Navigation Links</h1>
+    <table class="section__table">
+        
+      
+            <thead>
+            <tr>
+              <th>URL</th>
+              <th>Name</th>
+              <th>Edit</th>
+              <th>Move</th>
+              <th>Visible</th>
+              <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td>/</td>
+              <td>Home</td>
+              <td><button type="button">Edit</button></td>
+              <td><button type="button">V</button></td>
+              <td><button type="button">Visible</button></td>
+              <td><button type="button">X</button></td>
+            </tr>
+            <tr>
+                <td>/posts</td>
+                <td>Posts</td>
+                <td><button type="button">Edit</button></td>
+                <td><button type="button">V</button><button type="button">V</button></td>
+                <td><button type="button">Visible</button></td>
+                <td><button type="button">X</button></td>
+              </tr>
+              <tr>
+                <td>/contact</td>
+                <td>Contact</td>
+                <td><button type="button">Edit</button></td>
+                <td><button type="button">V</button></td>
+                <td><button type="button">Visible</button></td>
+                <td><button type="button">X</button></td>
+              </tr>
+        </tbody>
+          </table>
+    
+</aside>
+
+    <h1>
+        Quick Links
+    </h1>
+    <button type="button">Link Static Page</button>
+    <button type="button">Link Post</button>
+    <button type="button">Link Module</button>
+    <h1>Add New Link</h1>
+    <form>
+        <input type="text" id="text" placeholder="URL">
+        <input type="text" id="text" placeholder="NAME">
+        <button type="button">Add</button>
+    </form>
+    <footer>
+    <h1>Options</h1>
+    <div class="footer__box">
+    <div class="options">
+    <label for="Navigation link spacer">Navigation link spacer:</label>
+    <select name="cars" id="cars">
+      <option value="Wider space">Wider space</option>
+      <option value="saab">saab</option>
+      <option value="mercedes">mercedes</option>
+      <option value="audi">Audi</option>
+    </select>
+    <br>
+  
+    <span>Set the spacing between Navigation link </span>
+  </div>
+  </div>
+<hr>
+<button type="button">Save</button>
+</footer>
+</section>
+</main>
+</body>
+</html>
